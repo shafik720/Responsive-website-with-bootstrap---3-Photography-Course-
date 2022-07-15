@@ -20,3 +20,88 @@ Menubar
     background: #23AAF2;
     color: white;
 }
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*-------------------------------------------------------------------------- 
+Media query
+---------------------------------------------------------------------------*/
+
+/*--------------------------------------------------------------------------
+For mobile:  
+---------------------------------------------------------------------------*/
+@media only screen and (max-width:480px){
+    .menu-image img{
+        width: 80%;
+    }
+    .signup-button a{
+        text-decoration: none;
+        padding: 5px 15px;
+        border: 2px solid #23AAF2;
+        border-radius: 10px;
+        color: #23AAF2;
+        font-weight: 600;
+        transition: all 0.3s ;
+    }
+    .signup-button{
+        position: absolute;
+        top: 22px;
+        left: 40%;
+    }
+}
+
+/*--------------------------------------------------- 
+For ipads, tablet:  
+---------------------------------------------------*/
+@media only screen and (min-width:481px) and (max-width:768px) {
+    .menu-image img{
+        width: 80%;
+    }
+    .signup-button a{
+        text-decoration: none;
+        padding: 5px 15px;
+        border: 2px solid #23AAF2;
+        border-radius: 10px;
+        color: #23AAF2;
+        font-weight: 600;
+        transition: all 0.3s ;
+    }
+    .signup-button{
+        position: absolute;
+        top: 22px;
+        left: 40%;
+    }
+}
+
+/*-----------------------------------------
+ For Small screen, laptop:  
+-----------------------------------------*/
+@media only screen and (min-width:769px) and (max-width:1024px) {
+    .menu-image img{
+        width: 80%;
+    }
+    .signup-button a{
+        text-decoration: none;
+        padding: 5px 15px;
+        border: 2px solid #23AAF2;
+        border-radius: 10px;
+        color: #23AAF2;
+        font-weight: 600;
+        transition: all 0.3s ;
+    }
+    .signup-button{
+        position: absolute;
+        top: 22px;
+        left: 40%;
+    }
+}
