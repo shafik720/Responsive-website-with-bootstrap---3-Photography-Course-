@@ -3,9 +3,11 @@
 body a{
     text-decoration: none;
 }
-
+.blue-text-1{
+    color: #23AAF2;
+}
 .blue-text{
-    color: #21A3F1;
+    color: #FB171E;
 }
 .golden-text{
     color: gold;
@@ -63,7 +65,9 @@ Banner section
     font-size: 3.5em;
 }
 
-
+/*------------------------------------------------------------------------------------
+Slider section  
+-------------------------------------------------------------------------------------*/
 .slider-card{
     position: relative;
     overflow: hidden;
