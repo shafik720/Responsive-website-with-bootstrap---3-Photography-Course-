@@ -7,6 +7,9 @@ body a{
 .blue-text{
     color: #21A3F1;
 }
+.golden-text{
+    color: gold;
+}
 .blue-button-2{
     padding: 10px 25px;
     display: inline-block;
@@ -50,7 +53,7 @@ Banner section
 -------------------------------------------------------------------------------------*/
 .banner-section{
     background: url(images/banner-bg.jpg)no-repeat;
-    /* background-position: center ; */
+    background-position: center center;
     background-size: cover;
     padding: 100px 0;
 }
@@ -61,7 +64,49 @@ Banner section
 }
 
 
+.slider-card{
+    position: relative;
+    overflow: hidden;
+}
+.slider-image{
+    z-index: 100;
+}
+.slider-image img{
+    width: 100%;
+}
 
+.slider-card-text{
+    background: rgba(255, 255, 255, 0.411);
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    transform: translateY(100%);
+    transition: all 0.4s;
+}
+.slider-card:hover .slider-card-text{
+    transform: translateY(0%);
+    /* top: 0%; */
+}
+.slider-card-text .first-span{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 55px;
+}
+.first-span h4{
+    font-size: 1.2em;
+    font-weight: 600;
+    margin-right: 20px;
+}
+.second-span{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.second-span p{
+    margin-top: -10px;
+}
 
 
 
