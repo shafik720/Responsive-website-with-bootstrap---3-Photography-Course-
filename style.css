@@ -57,12 +57,19 @@ Banner section
     background: url(images/banner-bg.jpg)no-repeat;
     background-position: center center;
     background-size: cover;
-    padding: 100px 0;
+    padding: 220px 0;
+    position: relative;
 }
 .banner-section h1{
     font-weight: 600;
     color: white;
     font-size: 3.5em;
+}
+.slider{
+    position: absolute;
+    right: 0;
+    left: 0;
+    bottom: -10%;
 }
 
 /*------------------------------------------------------------------------------------
@@ -80,7 +87,7 @@ Slider section
 }
 
 .slider-card-text{
-    background: rgba(255, 255, 255, 0.411);
+    background: rgba(255, 255, 255, 0.74);
     position: absolute;
     top: 0%;
     bottom: 0;
