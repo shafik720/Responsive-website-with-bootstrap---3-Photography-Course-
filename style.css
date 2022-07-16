@@ -1,8 +1,27 @@
 
 
+body a{
+    text-decoration: none;
+}
 
-
-
+.blue-text{
+    color: #21A3F1;
+}
+.blue-button-2{
+    padding: 10px 25px;
+    display: inline-block;
+    color: white;
+    font-size: 1.3em;
+    border: 2px solid white;
+    border-radius: 10px ;
+    font-weight: 600;
+    transition: all 0.3s ;
+}
+.blue-button-2:hover{
+    background: white;
+    color: #21A3F1;
+    border: 2px solid #21A3F1;
+}
 /*------------------------------------------------------------------------------------
 Menubar  
 -------------------------------------------------------------------------------------*/
@@ -25,6 +44,21 @@ Menubar
     font-weight: 600;
 }
 
+
+/*------------------------------------------------------------------------------------
+Banner section  
+-------------------------------------------------------------------------------------*/
+.banner-section{
+    background: url(images/banner-bg.jpg)no-repeat;
+    /* background-position: center ; */
+    background-size: cover;
+    padding: 100px 0;
+}
+.banner-section h1{
+    font-weight: 600;
+    color: white;
+    font-size: 3.5em;
+}
 
 
 
