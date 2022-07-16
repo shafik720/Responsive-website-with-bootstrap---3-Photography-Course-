@@ -149,15 +149,52 @@ Catagories section
     justify-content: center;
     align-items: center;
 }
-.card-mini-heading{
-}
+
 .card-mini-heading span{
     border:2px solid #21A3F1;
     padding: 2px;
 }
-
-
-
+.card-image{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+}
+.card-image-text{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    column-gap: 10px;
+    position: absolute;
+    top: -50%;
+    left: 0;
+    right: 0;
+    transition: all 0.3s;
+}
+.card-image:hover .card-image-text{
+    top: 5%;
+}
+.card-image-span1{
+    padding: 10px 10px;
+    border: 2px solid #23AAF2;
+    color:#912927;
+    background: white;
+    border-radius: 5px;
+    font-weight: 600;
+}
+.card-button{
+    padding: 10px 10px;
+    border: 2px solid #23AAF2;
+    color: #21A3F1;
+    background: white;
+    border-radius: 5px;
+    font-weight: 600;
+    font-size: 1.2em;
+    transition: all 0.1s;
+}
+.card-button:hover{
+    background: #23AAF2;
+    color: white;
+}
 
 
 
