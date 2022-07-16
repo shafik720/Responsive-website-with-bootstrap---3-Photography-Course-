@@ -3,6 +3,9 @@
 body a{
     text-decoration: none;
 }
+.clear{
+    clear: both;
+}
 .blue-text-1{
     color: #23AAF2;
 }
@@ -26,6 +29,23 @@ body a{
     background: white;
     color: #21A3F1;
     border: 2px solid #21A3F1;
+}
+.blue-button-3{
+    padding: 10px 25px;
+    display: inline-block;
+    color: white;
+    border: 2px solid #23AAF2;
+    background: #23AAF2;
+    font-size: 1.3em;
+    border-radius: 10px ;
+    font-weight: 600;
+    transition: all 0.1s ;
+    box-sizing: border-box;
+}
+.blue-button-3:hover{
+    background: white;
+    color: #23AAF2;
+    border: 2px solid #23AAF2;
 }
 /*------------------------------------------------------------------------------------
 Menubar  
@@ -59,6 +79,7 @@ Banner section
     background-size: cover;
     padding: 220px 0;
     position: relative;
+    margin-bottom: 150px;
 }
 .banner-section h1{
     font-weight: 600;
@@ -151,6 +172,13 @@ For mobile:
         top: 22px;
         left: 40%;
     }
+
+    .catagories-section{
+        padding-top: 50px;
+    }
+    .catagories-heading-left{
+        text-align: center;
+    }
 }
 
 /*--------------------------------------------------- 
@@ -173,6 +201,13 @@ For ipads, tablet:
         position: absolute;
         top: 22px;
         left: 40%;
+    }
+
+    .catagories-section{
+        padding-top: 50px;
+    }
+    .catagories-heading-left{
+        text-align: center;
     }
 }
 
@@ -197,4 +232,12 @@ For ipads, tablet:
         top: 22px;
         left: 40%;
     }
+
+    .catagories-section{
+        padding-top: 50px;
+    }
+    
 }
+
+
+
