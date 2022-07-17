@@ -215,7 +215,7 @@ Winner section
     left: 0;
     right: 0;
     transform: translateX(-98%);
-    transition: all 0.7s ease-out;
+    transition: all 0.6s ease-out;
 }
 .winner-card-text:hover .card-text-second{
     transform: translateX(0);
@@ -229,7 +229,7 @@ Winner section
     align-items: center;
     opacity: 0 ;
     transition: 0.1s ;
-    transition-delay: 0.7s;
+    transition-delay: 0.6s;
 }
 .card-icon a{
     display: block;
