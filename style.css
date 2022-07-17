@@ -215,15 +215,21 @@ Winner section
     left: 0;
     right: 0;
     transform: translateX(-98%);
-    transition: all 0.5s ease-out;
+    transition: all 0.7s ease-out;
 }
 .winner-card-text:hover .card-text-second{
     transform: translateX(0);
+}
+.winner-card-text:hover .card-icon{
+    opacity: 1;
 }
 .card-icon{
     display: flex;
     justify-content: center;
     align-items: center;
+    opacity: 0 ;
+    transition: 0.1s ;
+    transition-delay: 0.7s;
 }
 .card-icon a{
     display: block;
@@ -236,11 +242,11 @@ Winner section
     align-items: center;
     color:#21A3F1;
     border-radius: 50%;
-    transition: all 0.2s;
+    transition: all 0.1s;
 }
 .card-icon a:hover{
-    background: #0DCAF0;
-    color: black;
+    background: #749292;
+    color: white;
 }
 
 
