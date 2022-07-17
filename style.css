@@ -203,9 +203,22 @@ Catagories section
 /*------------------------------------------------------------------------------------
 Winner section  
 -------------------------------------------------------------------------------------*/
-
+.winner-card-text{
+    position: relative;
+    overflow: hidden;
+}
 .card-text-second{
-    background: #0082CF;
+    background: #0DCAF0;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    transform: translateX(-98%);
+    transition: all 0.5s ease-out;
+}
+.winner-card-text:hover .card-text-second{
+    transform: translateX(0);
 }
 .card-icon{
     display: flex;
