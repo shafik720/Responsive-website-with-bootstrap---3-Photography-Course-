@@ -200,6 +200,48 @@ Catagories section
 }
 
 
+/*------------------------------------------------------------------------------------
+Winner section  
+-------------------------------------------------------------------------------------*/
+
+.card-text-second{
+    background: #0082CF;
+}
+.card-icon{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.card-icon a{
+    display: block;
+    margin: 5px;
+    width: 35px;
+    height: 35px ;
+    background: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#21A3F1;
+    border-radius: 50%;
+    transition: all 0.2s;
+}
+.card-icon a:hover{
+    background: #0DCAF0;
+    color: black;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /*-------------------------------------------------------------------------- 
