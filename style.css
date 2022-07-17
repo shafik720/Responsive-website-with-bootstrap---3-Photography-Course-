@@ -252,8 +252,50 @@ Winner section
 
 
 
+.winner-card-image{
+    position: relative;
+    overflow: hidden;
+}
+.winner-card-image-main{
+    position: relative;
+}
+.white-board{
+    background: white;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    transform: translateY(-110%);
+    transition: all 0.5s ease-out;
+    transition-delay: 0.8s;
+}
+.winner-section-card .winner-card:hover .white-board{
+    transform: translateX(0);
+}
 
-
+.winner-card-image-second{
+    text-align: center;
+    border: 5px solid #912927;
+    width: 130px ;
+    height: 130px;
+    border-radius: 50%;
+    overflow: hidden;
+    position: absolute;
+    top: 150%;
+    left: 50%;
+    transform: translate(-50%, 50%);
+    transition: all 0.5s ease-out;
+    opacity: 0.2;
+    transition-delay: 0.8s;
+}
+.winner-section-card .winner-card:hover .winner-card-image-second{
+    top: 0;
+    opacity: 1;
+}
+.winner-card-image-second img{
+    width: 100%;
+}
 
 
 
